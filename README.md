@@ -2,8 +2,10 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-One-line Firebase Cloud Messaging glue for the
-[Dijji Flutter SDK](https://github.com/urbaneyed/dijji-flutter).
+FCM and APNs glue for the **Dijji engagement layer**. Companion to the
+[`dijji` Flutter SDK](https://github.com/urbaneyed/dijji-flutter) — one-line
+`attach()` wires push tokens, refresh handling, foreground delivery, and
+tap events into the same dashboard your Dijji site analytics flow into.
 
 ```yaml
 dependencies:

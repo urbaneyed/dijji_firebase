@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1-alpha · 2026-04-29
+
+Brand-positioning patch — pub.dev description updated to lead with the
+Dijji pillar framing ("engagement layer") rather than describing this
+package as a generic FCM wrapper. No code changes.
+
 ## 1.0.0-alpha · 2026-04-29
 
 Initial alpha. One-line FCM/APNs integration for the Dijji Flutter SDK.
