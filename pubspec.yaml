@@ -1,0 +1,28 @@
+name: dijji_firebase
+description: One-line Firebase Cloud Messaging integration for the Dijji Flutter SDK. Auto-registers FCM/APNs tokens, fires push_received and push_opened, surfaces deep links.
+version: 1.0.0-alpha
+homepage: https://dijji.com
+repository: https://github.com/urbaneyed/dijji_firebase
+issue_tracker: https://github.com/urbaneyed/dijji_firebase/issues
+documentation: https://dijji.com/install/flutter
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Tracks the published dijji on pub.dev. The companion only uses the
+  # registerPushToken + trackPushEvent surface that has been stable since
+  # 1.0.0-alpha, so a wider constraint keeps both v1.0 and v1.1 callers happy.
+  dijji: ">=1.0.0-alpha <2.0.0"
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
